@@ -25,8 +25,11 @@ A modern, responsive blog front-end website built using **HTML**, **CSS**, and *
 ## 📁 Project Structure
 
 responsive-blog/
+
 ├── index.html # Main HTML structure
+
 ├── style.css # Styles and responsive design
+
 └── script.js # Sidebar toggle and interactivity
 
 
