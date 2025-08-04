@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="accent">Travel & Life</span> Blog</h1>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button id="nav-toggle">☰</button>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Adventures</h2>
+            <p>Stories, guides, and inspiration for your next journey.</p>
+        </div>
+    </section>
+    <div class="container main-layout">
+        <main>
+            <section class="blog-posts">
+                <article>
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Mountain Lake">
+                    <div class="post-content">
+                        <h2>Exploring the Lake</h2>
+                        <p class="summary">A journey through the serene waters and beautiful landscapes. <a href="#">Read more &rarr;</a></p>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Forest">
+                    <div class="post-content">
+                        <h2>Into the Woods</h2>
+                        <p class="summary">Discover the secrets hidden within the lush green forests. <a href="#">Read more &rarr;</a></p>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Desert">
+                    <div class="post-content">
+                        <h2>Desert Dreams</h2>
+                        <p class="summary">Experience the vastness and beauty of the desert. <a href="#">Read more &rarr;</a></p>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <aside id="sidebar">
+            <div class="sidebar-profile">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-pic">
+                <h3>About Me</h3>
+                <p>Hi! I'm <b>Vinit</b>, a passionate blogger sharing my adventures and stories from around the world. Join me as I explore new places and cultures!</p>
+            </div>
+            <div class="sidebar-section">
+                <h4>Categories</h4>
+                <ul class="categories">
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                </ul>
+            </div>
+            <button id="sidebar-toggle">Hide Sidebar</button>
+        </aside>
+        <button id="show-sidebar-btn" style="display:none;position:fixed;top:100px;right:20px;z-index:1000;background:#a64ca6;color:#fff;border:none;padding:0.7rem 1.2rem;border-radius:6px;box-shadow:0 2px 8px rgba(166,76,166,0.13);font-size:1rem;cursor:pointer;">Show Sidebar</button>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
